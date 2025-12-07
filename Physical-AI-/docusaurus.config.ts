@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://al-aqmarmukarraam.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-&-Humanoid-Robotics-book',
+  baseUrl: '/physical-ai-textbooks/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-&-Humanoid-Robotics-book', // Usually your repo name.
+  organizationName: 'Al-Aqmarmukarraam', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-textbooks', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,8 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/',
+             'https://github.com/Al-Aqmarmukarraam/physical-ai-textbooks/edit/main/docs/',
+
           sidebarCollapsed: false,
         },
         blog: {
@@ -98,7 +99,7 @@ const config: Config = {
         },
         {to: '/docs/intro', label: 'Textbook', position: 'left'},
         {
-          href: 'https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book',
+          href: 'https://github.com/Al-Aqmarmukarraam/physical-ai-textbooks',
           label: 'GitHub',
           position: 'right',
         },
@@ -141,7 +142,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book',
+              href: 'https://github.com/Al-Aqmarmukarraam/physical-ai-textbooks'
             },
             {
               label: 'Docusaurus',
@@ -149,19 +150,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Legal',
-          items: [
-            {
-              label: 'Privacy Policy',
-              to: '/privacy',
-            },
-            {
-              label: 'Terms of Service',
-              to: '/terms',
-            },
-          ],
-        },
+        
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
     },
